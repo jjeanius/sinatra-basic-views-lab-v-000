@@ -6,9 +6,4 @@ class App < Sinatra::Base
     erb :index
   end
 
-  get '/index' do
-    erb :index
-
-  end
-
 end
